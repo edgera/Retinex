@@ -1,5 +1,7 @@
 # Multiscale retinex with color restoration
 
+This repo adds a docker environment for headless execution of the original https://github.com/dongb5/Retinex
+
 ## Description
 Python implementation of multiscale retinex with color restoration.
 
@@ -8,7 +10,7 @@ Python implementation of multiscale retinex with color restoration.
 * OpenCV
 
 ## How to
-Place test data into data folder and execute run.py.
+Place test data into data folder, `make` && `make run`
 
 ## Reference
 * [A multiscale retinex for bridging the gap between color images and the human observation of scenes] (http://ieeexplore.ieee.org/document/597272/)
